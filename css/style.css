@@ -12,7 +12,7 @@ body{
     font-family: 'Roboto Flex', sans-serif;
     font-size: 10px;
     color: white;
-    background-color: rgb(21, 143, 143);
+    background-color: black;
 }
 
 /* /////////// HEADER //////////////////// */
@@ -82,21 +82,57 @@ main{
 /* /////////// FOOTER //////////////////// */
 
 footer{
-    background-color: brown;
+    background-color: #222222;
     height: 60px;
 }
 
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    display: flex;
+    padding: 0 10px;
+}
+
+.footer-item{
+    margin-right: 5px;
+}
+
   .footer-symbol{
+      display: flex;
+      justify-content: center;
       height: 35px;
       padding: 7px 0 ;
-      background-color: blue;
   }
 
-  .footer-symbol i{
-      font-size: 20px;
+    .footer-symbol i{
+        font-size: 20px;
+    }
+
+  .up-arrow{
+      display: flex;
+      align-items: center;
+      margin-right: 5px;
   }
 
+  .footer-right{
+    display: flex;
+    padding: 24px 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a4a4a;
+}
 
+ .footer-center{
+    display: flex;
+    padding: 0 10px;
+}
+
+.footer-symbol.green{
+    color:#42c502;
+}
 
 
 
