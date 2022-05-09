@@ -111,6 +111,10 @@ footer{
         font-size: 20px;
     }
 
+    .sub-symbol-text{
+        margin: 0 3px;
+    }
+
   .up-arrow{
       display: flex;
       align-items: center;
