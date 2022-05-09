@@ -1,3 +1,63 @@
-body{
-    background-color: aqua;
+/* RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* COMMON  */
+
+body{ 
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: small;
+    color: white;
+    background-color: rgb(21, 143, 143);
+}
+
+/* /////////// HEADER //////////////////// */
+
+header{
+    background-color: azure;
+    height: 60px;
+    position: relative;
+}
+
+
+.header-container{
+    background-color: beige;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.header-text{
+    
+    background-color: grey;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+ 
+
+
+
+
+
+/* /////////// MAIN //////////////////// */
+
+/* /////////// FOOTER //////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
