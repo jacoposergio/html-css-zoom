@@ -9,7 +9,7 @@
 
 body{ 
     font-family: 'Roboto Flex', sans-serif;
-    font-size: small;
+    font-size: 10px;
     color: white;
     background-color: rgb(21, 143, 143);
 }
@@ -37,17 +37,33 @@ header{
     border-radius: 5px;
     margin-left: 6px;
 }
- 
-
-
-
 
 
 /* /////////// MAIN //////////////////// */
 
+main{
+    background-color: blue;
+    height: calc(100vh - 140px);
+    overflow: auto;
+
+}
+
+.main-container{
+    background-color: blueviolet;
+    width: 90%;
+}
+
+
+
+
+
+
 /* /////////// FOOTER //////////////////// */
 
-
+footer{
+    background-color: brown;
+    height: 80px;
+}
 
 
 
