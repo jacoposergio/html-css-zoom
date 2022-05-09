@@ -8,6 +8,7 @@
 /* COMMON  */
 
 body{ 
+    height: 100%;
     font-family: 'Roboto Flex', sans-serif;
     font-size: 10px;
     color: white;
@@ -17,14 +18,12 @@ body{
 /* /////////// HEADER //////////////////// */
 
 header{
-    background-color: azure;
     height: 50px;
     position: relative;
 }
 
 
 .header-container{
-    background-color: beige;
     position: absolute;
     top: 5px;
     right: 5px;
@@ -42,14 +41,11 @@ header{
 /* /////////// MAIN //////////////////// */
 
 main{
-    background-color: rgb(192, 192, 205);
     height: calc(100vh - 110px);
     overflow-y: auto;
-
 }
 
 .main-container{
-    background-color: rgb(49, 19, 80);
     width: 95%;
     margin: 0 auto;
     height: 500px;
@@ -89,6 +85,18 @@ footer{
     background-color: brown;
     height: 60px;
 }
+
+  .footer-symbol{
+      height: 35px;
+      padding: 7px 0 ;
+      background-color: blue;
+  }
+
+  .footer-symbol i{
+      font-size: 20px;
+  }
+
+
 
 
 
